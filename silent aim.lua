@@ -31,7 +31,7 @@ local UIConfig = {
 	Keybind = Enum.KeyCode.RightShift
 }
 
-local Library = loadstring(game:HttpGet("BRACKET LOADSTRING"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomkiddupe/RBLX/main/Brckt.lua"))()
 local Window = Library:CreateWindow(UIConfig, game:GetService("CoreGui"))
 
 local MainTab = Window:CreateTab("Main")
